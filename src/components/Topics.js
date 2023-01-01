@@ -1,8 +1,8 @@
 import React from "react";
-import { Link,useHistory } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Topics = () => {
-  const his=useHistory();
+ 
   return (
     <div id="topics-div">
       <h2>Topics</h2>
@@ -15,7 +15,7 @@ const Topics = () => {
         </li>
       </ul>
       <hr />
-      <button id="topics-back-button" onClick={()=>{his.push("/")}}>Back</button>
+      <button id="topics-back-button" ><Link to="/">Back</Link></button>
     </div>
   );
 };
