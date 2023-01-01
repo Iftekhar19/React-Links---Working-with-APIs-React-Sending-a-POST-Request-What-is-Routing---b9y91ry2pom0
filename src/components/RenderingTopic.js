@@ -6,9 +6,9 @@ const RenderingTopic = () => {
   return (
     <div id="rendering-div">
       <h3>Rendering in React</h3>
-      <button id="rendering-back-button">
-        <Link to="/topics">Back</Link>
-      </button>
+      
+        <Link to="/topics"><button id="rendering-back-button">Back</button></Link>
+      
     </div>
   )
 }

@@ -15,7 +15,7 @@ const Topics = () => {
         </li>
       </ul>
       <hr />
-      <button id="topics-back-button" ><Link to="/">Back</Link></button>
+      <Link to="/"><button id="topics-back-button" >Back</button></Link>
       
     </div>
   );
